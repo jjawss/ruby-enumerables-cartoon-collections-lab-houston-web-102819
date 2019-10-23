@@ -22,6 +22,10 @@ def long_planeteer_calls(call)
   end
 end
 
+#def long_planeteer_calls (array) 
+  #array.any? { |word| word.size > 4} 
+#end
+
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0 
@@ -33,5 +37,11 @@ def find_the_cheese(snacks)
     end
   end
 end
+
+#def find_the_cheese (snack) 
+  #cheese_types = ["cheddar", "gouda", "camembert"] 
+  #snack.find { |word| cheese_types.include?(word) } 
+  end
+
 
 find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
